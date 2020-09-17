@@ -1,5 +1,5 @@
 {
-  "name": "create_react_app",
+  "name": "type_script_test",
   "version": "1.0.0",
   "description": "Atividade com uso de rash em Java",
   "main": "index.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JoaoRibeiro2/create_react_app.git"
+    "url": "git+https://github.com/JoaoRibeiro2/type_script_test.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/JoaoRibeiro2/create_react_app/issues"
+    "url": "https://github.com/JoaoRibeiro2/type_script_test/issues"
   },
-  "homepage": "https://github.com/JoaoRibeiro2/create_react_app#readme",
+  "homepage": "https://github.com/JoaoRibeiro2/type_script_test#readme",
   "dependencies": {
     "bootstrap": "^4.5.2",
     "live-server": "^1.2.1"
