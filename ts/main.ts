@@ -1,11 +1,13 @@
 namespace empresa{
     
-    let p = new Pessoa();
-    p.nome = "Maria";
-    p.idade = 20;
+    let c = new Cliente()
+    c.nome = "Pedro"
+    c.idade = 30;
+    c.codCliente = 123;
 
+    document.querySelector("#nome").textContent = c.nome
+    document.querySelector("#idade").textContent = c.idade.toString()
+    document.querySelector("#anoNasc").textContent = c.anoNasc(2020).toString()
 
-    document.querySelector("#nome").textContent = p.nome
-    document.querySelector("#idade").textContent = p.idade.toString()
-    document.querySelector("#anoNasc").textContent = p.anoNasc(2020).toString()
+    
 }
