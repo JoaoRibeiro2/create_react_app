@@ -1,8 +1,7 @@
 namespace empresa{
-    export class Pessoa{
+    export abstract class Pessoa{
         private _nome:string
         private _idade:number
-
 
         get nome(){
             return this._nome
@@ -11,7 +10,6 @@ namespace empresa{
         set nome(nome:string){
             this._nome = nome
         }
-
 
         get idade(){
             return this._idade
