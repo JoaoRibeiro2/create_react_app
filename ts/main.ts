@@ -20,6 +20,8 @@ namespace empresa{
     cv.idade = 30;
     cv.credito = 7000;
     cv.bonus = 4000;
+    cv.insertCidade = 'Peruíbe - SP'
+    cv.insertLogradouro = 'Rua Ribeirão Preto, 1300'
 
     document.querySelector("#nomeVip").textContent = cv.nome
     document.querySelector("#idadeVip").textContent = cv.idade.toString();
@@ -28,4 +30,5 @@ namespace empresa{
     document.querySelector("#creditoVip").textContent = cv.credito.toString();
     // document.querySelector("vl_compra").textContent = cv.compar.toString()
     document.querySelector("#comprarVip").textContent = cv.comprar(1000, 0).toString();
+    document.querySelector("#enderecoVip").textContent = cv.mostrarEndereco()
 }
