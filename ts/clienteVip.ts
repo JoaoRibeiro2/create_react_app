@@ -1,8 +1,22 @@
 namespace empresa{
     
-    export class ClienteVip extends Cliente{
+    export class ClienteVip extends Cliente implements IEndereco{
 
         private _bonus:number;
+        logradouro:string;
+        cidade:string;
+
+        set insertCidade(cidade:string){
+            this.cidade = cidade;
+        }
+
+        set insertLogradouro(logradouro:string){
+            this.logradouro = logradouro
+        } 
+
+        public mostrarEndereco():string{
+            return this.logradouro + ' ' + this.cidade;
+        }
 
         get bonus(){
             return this._bonus;
